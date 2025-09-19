@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import (QApplication,QLabel,QWidget,
                              QMessageBox)
 import sys
 
-# --- Funciones ---
+#  Funciones del programa 
 def agregar_proyecto():
     nombre = entrada_proyecto.text()
     if nombre.strip():
@@ -16,7 +16,7 @@ def agregar_proyecto():
 def salir_app():
     ventana.close()
 
-# --- Configuración de la aplicación ---
+# Configuración del programa
 app = QApplication(sys.argv)
 ventana = QWidget()
 
