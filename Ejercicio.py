@@ -1,10 +1,7 @@
-
-from PyQt5.QtWidgets import (
-    QApplication, QLabel, QWidget, QPushButton,
-    QVBoxLayout, QLineEdit, QMessageBox
-)
+from PyQt5.QtWidgets import (QApplication,QLabel,QWidget,
+                             QPushButton,QVBoxLayout,QLineEdit,
+                             QMessageBox)
 import sys
-
 
 # --- Funciones ---
 def agregar_proyecto():
